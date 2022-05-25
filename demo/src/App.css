@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+.youtobe-img {
+  width: 300px;
+  height: 300px;
+}
+.youtobe-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  padding: 20px;
+}
+.youtobe-footer {
+  display: flex;
+  margin-top: 20px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 100rem;
+  object-fit: cover;
+}
+.title {
+  font-size: 20px;
+  color: blue;
+}
+.name {
+  font-size: 15px;
+}
